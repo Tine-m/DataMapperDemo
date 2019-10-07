@@ -10,9 +10,6 @@ public class DB {
     private static final String URL = "jdbc:mysql://localhost:3306/scott-tiger";
     private static final String USER = "root";
     private static final String PASSWORD = "root";
-//    private static final String URL = "jdbc:mysql://104.248.95.162:3306/test";
-//    private static final String USER = "tm";
-//    private static final String PASSWORD = "Knock_3*";
     private static Connection conn = null;
 
     public static Connection getConnection() {
